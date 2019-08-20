@@ -26,10 +26,10 @@
           <el-input-number v-if="selectedRuleObj.inputType === 'number'" v-model="query.value"></el-input-number>
           <el-date-picker v-if="selectedRuleObj.inputType === 'date' || selectedRuleObj.inputType === 'datetime'" value-format="timestamp" :editable="false" :type="selectedRuleObj.inputType" v-model="query.value" />
           <el-checkbox-group v-model="query.value" v-if="selectedRuleObj.inputType === 'checkbox'">
-            <el-checkbox :label="choice" v-for="choice in selectedRuleObj.choices" :key="choice" :value="choice"></el-checkbox>
+            <el-checkbox :label="choice.label" v-for="choice in selectedRuleObj.choices" :key="choice.label" :value="choice.value"></el-checkbox>
           </el-checkbox-group>
           <el-radio-group v-model="query.value" v-if="selectedRuleObj.inputType === 'radio'">
-            <el-radio :label="choice" v-for="choice in selectedRuleObj.choices" :key="choice" :value="choice"></el-radio>
+            <el-radio :label="choice.label" v-for="choice in selectedRuleObj.choices" :key="choice.label" :value="choice.value"></el-radio>
           </el-radio-group>
         </div>
 
