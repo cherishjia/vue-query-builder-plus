@@ -3,15 +3,15 @@
       <div class="rules-group-header">
           <div class="btn-group pull-right group-actions"> 
               <el-button-group>
-                  <el-button size="mini" type="success" icon="el-icon-plus" @click="addRule">Add Rule</el-button>
-                  <el-button size="mini" type="success" icon="el-icon-circle-plus-outline" v-if="this.depth < this.maxDepth" @click="addGroup">Add Group</el-button>
-                  <el-button v-if="this.depth > 1" @click="remove" size="mini" type="danger" icon="el-icon-close">Delete</el-button>
+                  <el-button size="mini" type="success" icon="el-icon-plus" @click="addRule">添加规则</el-button>
+                  <el-button size="mini" type="success" icon="el-icon-circle-plus-outline" v-if="this.depth < this.maxDepth" @click="addGroup">添加组</el-button>
+                  <el-button v-if="this.depth > 1" @click="remove" size="mini" type="danger" icon="el-icon-close">删除</el-button>
               </el-button-group>
           </div>
           <div class="btn-group group-conditions">
             <el-radio-group v-model="query.logicalOperator" size="mini">
-              <el-radio-button label="AND" :disabled="!hasMultipleRule">AND</el-radio-button>
-              <el-radio-button label="OR" :disabled="!hasMultipleRule">OR</el-radio-button>
+              <el-radio-button label="AND" :disabled="!hasMultipleRule">与</el-radio-button>
+              <el-radio-button label="OR" :disabled="!hasMultipleRule">或</el-radio-button>
             </el-radio-group>
           </div>
           

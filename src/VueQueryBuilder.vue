@@ -45,10 +45,10 @@ export default {
       ruleTypes: {
         text: {
           operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "不等於", value: "NOTEQUALS" },
-            { label: "包含於", value: "IN" },
-            { label: "不包含於", value: "NOTIN" }
+            { label: "等于", value: "EQUALS" },
+            { label: "不等于", value: "NOTEQUALS" },
+            { label: "包含于", value: "IN" },
+            { label: "不包含于", value: "NOTIN" }
           ],
           inputType: "text",
           id: "text-field",
@@ -56,12 +56,12 @@ export default {
         },
         numeric: {
           operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "大於", value: "GREATTHAN" },
-            { label: "小於", value: "LESSTHAN" },
-            { label: "大於等於", value: "GREATTHANEQUALS" },
-            { label: "小於等於", value: "LESSTHANEQUALS" },
-            { label: "不等於", value: "NOTEQUALS" }
+            { label: "等于", value: "EQUALS" },
+            { label: "大于", value: "GREATTHAN" },
+            { label: "小于", value: "LESSTHAN" },
+            { label: "大于等于", value: "GREATTHANEQUALS" },
+            { label: "小于等于", value: "LESSTHANEQUALS" },
+            { label: "不等于", value: "NOTEQUALS" }
           ],
           inputType: "number",
           id: "number-field",
@@ -69,12 +69,12 @@ export default {
         },
         date: {
           operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "大於", value: "GREATTHAN" },
-            { label: "小於", value: "LESSTHAN" },
-            { label: "大於等於", value: "GREATTHANEQUALS" },
-            { label: "小於等於", value: "LESSTHANEQUALS" },
-            { label: "不等於", value: "NOTEQUALS" }
+            { label: "等于", value: "EQUALS" },
+            { label: "大于", value: "GREATTHAN" },
+            { label: "小于", value: "LESSTHAN" },
+            { label: "大于等于", value: "GREATTHANEQUALS" },
+            { label: "小于等于", value: "LESSTHANEQUALS" },
+            { label: "不等于", value: "NOTEQUALS" }
           ],
           inputType: "date",
           id: "date-field",
@@ -82,12 +82,12 @@ export default {
         },
         datetime: {
           operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "大於", value: "GREATTHAN" },
-            { label: "小於", value: "LESSTHAN" },
-            { label: "大於等於", value: "GREATTHANEQUALS" },
-            { label: "小於等於", value: "LESSTHANEQUALS" },
-            { label: "不等於", value: "NOTEQUALS" }
+            { label: "等于", value: "EQUALS" },
+            { label: "大于", value: "GREATTHAN" },
+            { label: "小于", value: "LESSTHAN" },
+            { label: "大于等于", value: "GREATTHANEQUALS" },
+            { label: "小于等于", value: "LESSTHANEQUALS" },
+            { label: "不等于", value: "NOTEQUALS" }
           ],
           inputType: "datetime",
           id: "datetime-field",
@@ -95,8 +95,8 @@ export default {
         },
         radio: {
           operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "不等於", value: "NOTEQUALS" }
+            { label: "等于", value: "EQUALS" },
+            { label: "不等于", value: "NOTEQUALS" }
           ],
           choices: [],
           inputType: "radio",
@@ -105,10 +105,10 @@ export default {
         },
         checkbox: {
           operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "不等於", value: "NOTEQUALS" },
-            { label: "包含於", value: "IN" },
-            { label: "不包含於", value: "NOTIN" }
+            { label: "等于", value: "EQUALS" },
+            { label: "不等于", value: "NOTEQUALS" },
+            { label: "包含于", value: "IN" },
+            { label: "不包含于", value: "NOTIN" }
           ],
           choices: [],
           inputType: "checkbox",
@@ -117,8 +117,8 @@ export default {
         },
         select: {
           operators: [
-            { label: "等於", value: "EQUALS" },
-            { label: "不等於", value: "NOTEQUALS" }
+            { label: "等于", value: "EQUALS" },
+            { label: "不等于", value: "NOTEQUALS" }
           ],
           choices: [],
           inputType: "select",

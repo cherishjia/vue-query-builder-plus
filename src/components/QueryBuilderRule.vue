@@ -34,7 +34,7 @@
         </div>
 
         <div class="btn-group pull-right rule-actions"> 
-            <el-button size="small" type="danger" icon="el-icon-close"  @click="remove">Delete</el-button>
+            <el-button size="small" type="danger" icon="el-icon-close"  @click="remove">删除</el-button>
         </div>
     </div>
   </div>
