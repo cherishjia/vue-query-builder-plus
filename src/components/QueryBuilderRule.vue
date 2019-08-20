@@ -31,6 +31,15 @@
           <el-radio-group v-model="query.value" v-if="selectedRuleObj.inputType === 'radio'">
             <el-radio :label="choice.label" v-for="choice in selectedRuleObj.choices" :key="choice.label" :value="choice.value"></el-radio>
           </el-radio-group>
+
+            <el-select  v-model="query.value" v-if="selectedRuleObj.inputType === 'select'" placeholder="请选择">
+                <el-option
+                        v-for="choice in selectedRuleObj.choices"
+                        :key="choice.value"
+                        :label="choice.label"
+                        :value="choice.value">
+                </el-option>
+            </el-select>
         </div>
 
         <div class="btn-group pull-right rule-actions"> 
